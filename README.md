@@ -8,6 +8,16 @@
 
 ---
 
+## Quick Install (one command)
+
+```bash
+curl -s https://raw.githubusercontent.com/HackerCompagnion7/mini/main/install.sh | bash
+```
+
+Works on **Termux**, **Linux**, and **macOS**. The script auto-detects your platform, installs build dependencies if needed, compiles, and installs `mini` to your `bin` directory.
+
+---
+
 ## Features
 
 | Feature | Detail |
@@ -45,7 +55,7 @@
 
 ---
 
-## Build
+## Build from Source
 
 ### Prerequisites
 
@@ -65,6 +75,12 @@ make
 
 ```bash
 sudo make install    # installs to /usr/local/bin/mini
+```
+
+### Or use the one-liner installer
+
+```bash
+curl -s https://raw.githubusercontent.com/HackerCompagnion7/mini/main/install.sh | bash
 ```
 
 ### Run
@@ -125,6 +141,7 @@ mini/
 ├── packages/
 │   └── mini/
 │       └── build.sh        # Termux package build script
+├── install.sh             # One-command installer (curl | bash)
 ├── Makefile
 ├── LICENSE
 ├── CONTRIBUTING.md
@@ -143,20 +160,26 @@ mini/
 
 ## Termux Installation
 
-Once the package is merged into `termux-packages`:
+**One command:**
 
 ```bash
-pkg install mini
+curl -s https://raw.githubusercontent.com/HackerCompagnion7/mini/main/install.sh | bash
 ```
 
-Until then, build from source in Termux:
+**Or manually:**
 
 ```bash
-pkg install clang make
+pkg install clang make git
 git clone https://github.com/HackerCompagnion7/mini.git
 cd mini
 make
 cp mini $PREFIX/bin/
+```
+
+**Once the package is merged into `termux-packages`:**
+
+```bash
+pkg install mini
 ```
 
 ---
