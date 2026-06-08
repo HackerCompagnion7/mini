@@ -6,6 +6,15 @@
   <strong>36KB binary · Pure C11 · No ncurses · UTF-8 · Termux native</strong>
 </p>
 
+<p align="center">
+  <a href="https://github.com/HackerCompagnion7/mini/releases/download/v1.1.0/demo.mp4">
+    <img src="https://img.shields.io/badge/Watch-Demo_Video-red?style=for-the-badge&logo=video" alt="Demo Video" />
+  </a>
+  <a href="https://github.com/HackerCompagnion7/mini/releases/tag/v1.1.0">
+    <img src="https://img.shields.io/badge/Download-v1.1.0-blue?style=for-the-badge" alt="Latest Release" />
+  </a>
+</p>
+
 ---
 
 ## Quick Install (one command)
