@@ -1,0 +1,25 @@
+# Compiled objects
+obj/
+*.o
+
+# Compiled binaries (root only)
+/mini
+/test_core
+/test_regression
+/test_syntax
+/test_asan
+/test_asan_core
+/test_asan_syntax
+/test_reg_asan
+
+# Debug/ASan builds
+*.asan
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
