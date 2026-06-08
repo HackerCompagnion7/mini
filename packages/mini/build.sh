@@ -1,9 +1,9 @@
-TERMUX_PKG_HOMEPAGE=https://github.com/mini-editor/mini
+TERMUX_PKG_HOMEPAGE=https://github.com/HackerCompagnion7/mini
 TERMUX_PKG_DESCRIPTION="A lightweight terminal text editor inspired by Nano"
 TERMUX_PKG_LICENSE="MIT"
-TERMUX_PKG_MAINTAINER="@mini-editor"
+TERMUX_PKG_MAINTAINER="@HackerCompagnion7"
 TERMUX_PKG_VERSION=1.1.0
-TERMUX_PKG_SRCURL=https://github.com/mini-editor/mini/archive/refs/tags/v${TERMUX_PKG_VERSION}.tar.gz
+TERMUX_PKG_SRCURL=https://github.com/HackerCompagnion7/mini/archive/refs/tags/v${TERMUX_PKG_VERSION}.tar.gz
 TERMUX_PKG_SHA256=SKIP_CHECKSUM
 TERMUX_PKG_BUILD_IN_SRC=true
 TERMUX_PKG_DEPENDS=""
